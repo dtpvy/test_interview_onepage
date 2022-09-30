@@ -1,0 +1,40 @@
+.footer {
+  background: var(--white);
+  display: flex;
+  color: var(--black);
+  padding: 32px 95px;
+}
+
+.footer__title {
+  order: 1;
+}
+
+.footer__sub-title {
+  display: flex;
+  gap: 56px;
+  margin-left: auto;
+  order: 2;
+}
+
+@media only screen and (max-width: 912px) {
+  .footer {
+    background: var(--black);
+    color: var(--white);
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+    display: block;
+    text-align: center;
+  }
+
+  .footer__sub-title {
+    display: block;
+  }
+
+  .footer__title {
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 26px;
+  }
+}
